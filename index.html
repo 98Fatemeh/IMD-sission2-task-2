@@ -13,25 +13,48 @@
             <form action="#">
 
                 <label for="firstname">First Name</label><br>
-                <input type="text" name="firstname" id="firstname" autocomplete="on" required><br><br>
+                <input type="text" name="firstname" id="firstname" placeholder="Name" autocomplete="on" required><br><br>
 
                 <label for="lastname">Last Name</label><br>
-                <input type="text" name="lastname" id="lastname" autocomplete="on"  required><br><br>
+                <input type="text" name="lastname" id="lastname" placeholder="Family Name" autocomplete="on" required><br><br>
 
-                <label for="email">Emaim</label><br>
-                <input type="email" name="email" id="email" autocomplete="on"  required><br><br>
+                <label for="email">Email</label><br>
+                <input type="email" name="email" id="email" placeholder="email@example.com" autocomplete="on" required><br><br>
 
-                <label for="number">Number</label><br>
-                <input type="number" name="number" id="number" autocomplete="on"  required><br><br>
+                <label for="number">Student ID</label><br>
+                <input type="number" name="number" id="number" placeholder="8 Digits" autocomplete="on" required><br><br>
 
                 <label for="password">Password</label><br>
-                <input type="password" name="password" id="password" autocomplete="off" required><br><br>
-                
+                <input type="password" name="password" id="password" placeholder="Choose a strong one!" autocomplete="off" required><br><br>
+
+                <p>
+                    Gender
+                </p>
+                <input type="radio" name="male-female-radio" id="male" value="male" checked>
+                <label for="male"> Male</label><br>
+
+                <input type="radio" name="male-female-radio" id="female" value="female">
+                <label for="female"> Female</label><br>
+                <p>
+                    How you get familier with our website?
+                </p>
+                <input type="checkbox" name="get-familier" id="family" value="family">
+                <label for="family"> Family</label><br>
+
+                <input type="checkbox" name="get-familier" id="friends" value="friends" checked>
+                <label for="friends"> Friends</label><br>
+
+                <input type="checkbox" name="get-familier" id="ads" value="ads">
+                <label for="ads"> Advertisement</label><br>
+
+                <input type="checkbox" name="get-familier" id="others" value="others">
+                <label for="others"> others...</label><br>
+
                 <label for="select">Favorite social network</label><br>
                  <select name="select" id="select">
-                    <option value="">WhatsApp</option>
-                    <option value="">Instagram</option>
-                    <option value="">Facebook</option>
+                    <option value="whatsapp">WhatsApp</option>
+                    <option value="instagram">Instagram</option>
+                    <option value="facebook">Facebook</option>
                 </select><br><br>
 
                 <label for="range">The rate of use of social networks</label><br>
@@ -73,6 +96,5 @@
                 <td>۲۰۰ میلیون کاربر فعال در ماه</td>
             </tr>
        </table>
-
     </body>
 </html>
